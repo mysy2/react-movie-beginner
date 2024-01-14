@@ -6,8 +6,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/react-movie-beginner/movie/:id" element={<Detail />} />
-        <Route path="/react-movie-beginner/" element={<Home />} />
+        <Route path="/movie/:id" element={<Detail />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </Router>
   );
